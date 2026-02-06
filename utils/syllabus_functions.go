@@ -2,10 +2,11 @@ package utils
 
 import (
 	"fmt"
-	"github.com/astaxie/beego"
-	"github.com/udistrital/sga_syllabus_mid/helpers"
-	"github.com/udistrital/utils_oas/request"
 	"strings"
+
+	"github.com/astaxie/beego"
+	"github.com/udistrital/syllabus_mid/helpers"
+	"github.com/udistrital/utils_oas/request"
 )
 
 func GetSyllabusTemplateData(spaceData, syllabusData, facultyData, projectData map[string]interface{}, languages string) map[string]interface{} {

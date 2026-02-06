@@ -9,7 +9,7 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"
 	"github.com/mfpierre/go-mcrypt"
-	"github.com/udistrital/sga_syllabus_mid/utils"
+	"github.com/udistrital/syllabus_mid/utils"
 	"github.com/udistrital/utils_oas/request"
 	"github.com/udistrital/utils_oas/requestresponse"
 )
